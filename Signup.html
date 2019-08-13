@@ -1,0 +1,38 @@
+<html>
+    <title>Sign-up</title>
+  <link href="signup.css" type="text/css" rel="stylesheet">
+   <body>
+      
+       <h1 id="hd1">Let's make your account</h1>
+       <div id="para">
+       <p >Know your prescription and diagnosis on your tip.We connect Doctors and Pateint. 
+           Already have an account? <a id="login" href="#">Log-in</a></p>
+        </div> 
+       <div id="main-page">
+           <form class="form" method="POST" onsubmit="return checksum();">
+                        <div class="form-box" id="box1">
+                            <label class="lab" for="name">Name</label>
+                            <input type="text" placeholder="Enter your name" required="required" name="name">
+                       </div>
+                       <div  class="form-box" id="box2">
+                            <label class="lab" for="email">Email</label>
+                            <input type="email" placeholder="abc@xyz.com" required="required" name="email">
+                       </div>
+       
+                       <div  class="form-box" id="box3">
+                            <label class="lab" for="email"  >Create a Password</label>
+                            <input type="password" required="required" name="password" pattern=".{6,}" title="password must contain atleast 6 character">
+                       </div>
+                       <div >
+                           <button id="submit" type="submit">Submit</button>
+                       </div>
+                       <div id="para-submit">
+                           <p >By clicking the "Submit" button, you are creating a Medic Hub account, and you agree to Medic Hub's <a href="terms_of_use.txt"> Terms of Use</a> and <a href="Privacy_policy.txt">Privacy Policy.</a></p>
+                           
+                        </div>
+
+                   
+           </form>
+       </div>
+   </body> 
+</html>

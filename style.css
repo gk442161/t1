@@ -1,0 +1,96 @@
+body {
+	
+
+	margin: 0px;
+	display: inline;
+}
+
+.bgimage{
+	padding: 0%;
+	background: url("bgimg1.jpg");
+	background-color: #cccccc;
+	height: 100vh;
+	width: 100vw;
+	background-position: center 42%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+
+
+.logo{
+	margin-top: 2%;
+	margin-left: 4%;
+	border-radius: 40px 40px 40px 40px / 40px 40px 40px 40px;
+}
+
+.logo:hover{
+	height: 50px;
+	width: 50px;
+
+}
+
+
+.dropdown1,.dropdown2{
+	
+	float: right;
+	margin-inline-end: 2%;
+	margin-top: 2%;
+	overflow: hidden;
+	background-color: transparent;
+	color: white;
+}
+
+	
+.dropbtn1,.dropbtn2{
+	border-radius: 40px 40px 40px 40px / 40px 40px 40px 40px;
+	padding: 14px 16px;
+	background-color: rgb(97, 170, 212);
+	border-color: rgb(176, 206, 247)
+
+}
+.dropdown1:hover .dropdown-content1,.dropdown2:hover .dropdown-content2  {
+	
+	display: block;
+}
+
+.dropdown1:hover .dropbtn1,.dropdown2:hover .dropbtn2{
+	border-color:rgb(10, 81, 119) ;
+	font-size: medium;
+	font-weight: bold;
+}
+
+
+.dropdown-content1,.dropdown-content2{
+	display: none;
+	position: absolute;	
+}
+
+a.a2 {
+	
+  float: right;
+  color: black;
+  padding-block-start: 10%;
+  padding: 20%;
+  text-decoration: none;
+  margin-right: 20%;
+  text-align: center;
+  font-weight:medium ;
+}
+
+a.a2:hover {
+  font-weight: 900;
+  font-size: 150%;
+  padding-top:10%;
+  padding-left: 15%;
+  text-align: right;
+}
+
+
+
+.text{
+	text-decoration-color: black;
+}
+
+

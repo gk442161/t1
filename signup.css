@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+  background: url("bc.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+
+}
+
+#login{
+    color:rgb(0, 212, 240);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top:3%;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
+}
+
+#para {
+    color: white;
+    padding-left: 50%;
+    margin-right:10%;
+    font-size: 1.3em;
+}
+
+.form{
+    
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 50%;
+    
+    height: 60%;
+}
+
+.form-box{
+    background-color:transparent;
+    padding-top: 1%;
+}
+
+ 
+.lab{ font-size: 26px;
+        padding-left: 4%;
+        font-weight: bolder;
+
+}
+input{
+    border:3px solid lightblue;
+    border-radius: 20px;
+    display: block;
+    margin-left:3%;
+    
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#submit{
+    border:3px solid lightblue;
+    border-radius: 20px;
+    display: block;
+    margin-left:3%;
+    
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top:4%;
+    margin-left:6%;
+}
+
+#para-submit{
+    margin-top: -7%;
+    margin-left:25%;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#submit:hover{
+    border-color: #5baaaf;
+    background-color: rgb(7, 105, 138);
+    color: white;
+}
+
+a:link{
+    color: transparent;
+}
